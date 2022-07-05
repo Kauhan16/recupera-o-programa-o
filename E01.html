@@ -1,0 +1,19 @@
+<script>
+    //Problema
+    /*
+    Considere que uma pessoa toma, a cada dois dias, uma garrafa de vinho, sendo que esta garrafa contém 750ml. Peça para o usuário informar qual o preço da garrafa de vinho.
+    Calcule quantos litros de vinho a pessoa terá tomado ao fim de 2 anos e quantos reais terá gasto. Apresente os dois resultados na tela.
+    Considere que um ano possui 365 dias!
+    */
+
+    //Entrada
+const garrafaR$ = Number(prompt("preço da garrafa de vinho:"))
+const vinhosbebidosemummes = 750 * 15 
+    //Processamento
+const vinhosbebidos = vinhosbebidosemummes * 24
+const reaisgastos = garrafaR$ * 24
+
+
+    //Saída
+    document.write(`Ele gasto ${reaisgastos.toFixed(2)}Reais em vinhos,ele bebeu ${vinhosbebidos.toFixed(0)}L de vinho`)
+</script>

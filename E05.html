@@ -1,0 +1,21 @@
+<script>
+    //Problema
+    /*
+    Considere que o professor da disciplina de Programação realizou três atividades avaliativas ao longo do trimestre.
+    A primeira atividade teve peso 3, segunda atividade teve peso 4 e a terceira atividade teve peso 3.
+    Peça para o usuário informar a nota obtida em cada atividade e apresente a média ponderada que o aluno obteve ao fim do trimestre.
+    */
+
+    //Entrada
+ const atv1 = Number(prompt("resultado da prova 1"))
+ const atv2 = Number(prompt("resultado da prova 2"))
+ const atv3 = Number(prompt("resultado da prova 3"))
+    //Processamento
+const peso1 = atv1 * 3
+const peso2 = atv2 * 4
+const peso3 = atv3 * 3
+const pesoTotal = 10
+const mediaFinal = (peso1 + peso2 + peso3) / pesoTotal
+    //Saída
+    document.write(`Media final do(a) aluno(a) ${mediaFinal.toFixed(1)}`)
+</script>

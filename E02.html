@@ -1,0 +1,18 @@
+<script>
+    //Problema
+    /*
+    Considere que um veículo percorre 14 quilômetros com um litro de gasolina. Informe para o programa a distância de uma viagem e peça para o programa calcular quantos litros de gasolina serão necessários para realizar a viagem e o custo total do combustível.
+    Considere também que a cada 50km haverá um pedágio, no custo de R$ 4,90. Calcule o valor total dos pedágios.
+    Apresente os resultados e também apresente o custo total da viagem (Combústivel + Pedágio).
+    */
+
+    //Entrada
+const kmAndados = Number(prompt("kms rodados"))
+const combustivel = Number(prompt("combustivel"))
+
+    //Processamento
+const kms = kmAndados 
+const total = combustivel + kms + 4.90 * (2)
+    //Saída
+document.write(`total da viagem ${total.toFixed(2)}Reais`)
+</script>

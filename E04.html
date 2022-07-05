@@ -1,0 +1,18 @@
+<script>
+    //Problema
+    /*
+    Peça para o usuário informar o valor do veículo a ser comprado.
+    Considere que o comprador dará uma entrada de R$ 10.000,00. Para comprar o carro financiado em 36x, serão acrescidos 35% no valor financiado.
+    Calcule o valor final financiado e o valor total de cada parcela e apresente estes valores na tela.
+    */
+
+    //Entrada
+const valorCompra = Number(prompt("valor da compra"))
+const parcela =Number(prompt("dividido em quantas vezes"))
+    //Processamento
+const compra = valorCompra / parcela
+const comJuros = compra * (35 / 100)
+const total = compra + comJuros + parcela
+    //Saída
+    document.write(`Valor das parcelas ${total.toFixed(2)}Reais`)
+</script>
